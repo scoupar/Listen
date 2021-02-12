@@ -1,0 +1,107 @@
+h1{
+    font-family: 'Viga', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    letter-spacing: 20px;
+    
+
+}
+
+#input-form{
+    display:flex;
+    flex-wrap:nowrap;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.form-item{
+    padding:10px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin:15px;
+    letter-spacing:4px;
+}
+
+
+#save-button{
+    display:inline-block;
+    padding-left:10px;
+    padding-right:10px;
+    border:0.16em solid #FFFFFF;
+    margin:5px;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    color:#ececec;
+    text-align:center;
+    transition: all 0.15s;
+    background: rgb(0, 0, 0);
+}
+
+#save-button:hover{
+    color:#ffffff;
+    border-color:#0a0303;   
+}
+
+input{
+    margin-right:10px;
+    margin-left:10px;
+}
+
+select{
+    margin-right:10px;
+    margin-left:10px;
+}
+
+h2{
+    font-family: 'Red Hat Display', sans-serif;
+    letter-spacing:4px;
+    text-align:center;
+}
+
+h3{
+    font-family: 'Red Hat Display', sans-serif;
+    letter-spacing: 4px;
+}
+
+#list{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+}
+
+.list-item{
+    margin:5px;
+    padding:5px;
+    text-align: center;
+    list-style: none;
+    border: 0.1px solid black;
+}
+
+#delete-all-button{
+    display:flex;
+    padding-left:10px;
+    padding-right:10px;
+    border:0.16em solid #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    font-size:large;
+    color:#ececec;
+    text-align:center;
+    transition: all 0.15s;
+    background: rgb(0, 0, 0);
+    
+}
+
+#delete-all-button:hover{
+    background-color:red;
+    border-color:red;
+    
+}
