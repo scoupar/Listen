@@ -37,6 +37,7 @@ const createListItem = function(form){
 
     const link = document.createElement('a');
     link.setAttribute('href', form.link.value);
+    link.setAttribute('target', '_blank');
     link.textContent = 'Listen now';
     listItem.appendChild(link);
 
