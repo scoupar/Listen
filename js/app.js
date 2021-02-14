@@ -35,14 +35,23 @@ const createListItem = function(form){
     platform.textContent = `Platform: ${form.platform.value}`;
     listItem.appendChild(platform);
 
-    // const link = document.createElement('a');
-    // link.textContent = `Link: ${form.link.value}`;
-    // listItem.appendChild(link);
+    const link = document.createElement('a');
+    link.setAttribute('href', form.link.value);
+    link.textContent = 'Listen now';
+    listItem.appendChild(link);
+
+    const newRelease = document.createElement('h3');
+    newRelease.textContent = `New Release: ${form.decision.value}`;
+    listItem.appendChild(newRelease);
+
+    const releaseDate = document.createElement('h3');
+    releaseDate.textContent = `Release date: ${form.releaseDate.value}`;
+    listItem.appendChild(releaseDate);
 
     return listItem;
 }
 
-const handleDeleteButton = function(event){
+const handleDeleteButton = function(){
     const list = document.querySelector('#list');
     list.innerHTML = '';
 }
