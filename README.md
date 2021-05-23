@@ -1,6 +1,6 @@
 
 # List:en
-To Listen To app: Javascript app to retrieve date from HTML form and display in a list.
+To Listen To app: Javascript app to retrieve date from HTML form and display in a list. An exercise in manipluating the DOM. 
 
 ### Learning Objectives
 
